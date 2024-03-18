@@ -1,0 +1,12 @@
+version: '3.7'
+
+services:
+  postgres:
+    image: postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: omer9706
+      POSTGRES_PASSWORD: Casi.578745
+      POSTGRES_DB: omer_db
