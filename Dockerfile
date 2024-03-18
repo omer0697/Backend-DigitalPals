@@ -13,7 +13,7 @@ RUN npm install
 # Copy the rest of the app files
 COPY . .
 
-# Expose port 3000 (or the port your Nest.js app listens on)
+# Expose port 5000 (or the port your Nest.js app listens on)
 EXPOSE 5000
 
 # Command to run the app
