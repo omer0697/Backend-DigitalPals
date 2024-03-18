@@ -7,6 +7,6 @@ services:
     ports:
       - "5432:5432"
     environment:
-      POSTGRES_USER: omer9706
-      POSTGRES_PASSWORD: Casi.578745
+      POSTGRES_USER: 
+      POSTGRES_PASSWORD: 
       POSTGRES_DB: omer_db
