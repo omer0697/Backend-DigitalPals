@@ -1,0 +1,11 @@
+{
+    "type": "postgres",
+    "host": "localhost",
+    "port": 5432,
+    "username": "omer9706",
+    "password": "Casi.578745",
+    "database": "omer_db",
+    "entities": ["src/**/*.entity{.ts,.js}"],
+    "migrations": ["src/migration/*.ts"],
+    "synchronize": true
+}
